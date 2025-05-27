@@ -621,8 +621,21 @@ a {
 }
 
 .footer .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 28px;
     height: 28px;
+    border-radius: 3px;
+}
+
+.footer .social-link + .social-link {
+    margin-left: 16px;
+}
+
+.footer .social-link:hover {
+    background-color: #f9f9f9;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .footer .row-bottom {
